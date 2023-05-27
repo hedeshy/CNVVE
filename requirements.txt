@@ -1,0 +1,13 @@
+torch
+torchaudio
+torchsummary
+torchvision
+pandas
+scikit-learn
+typing_extensions
+tqdm
+hyperopt
+matplotlib
+numpy
+seaborn
+webrtcvad

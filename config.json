@@ -1,0 +1,25 @@
+{
+    "exp_name": "test_tn",
+    "train_mode": "tn",
+    "is_aug": false, 
+    "AUDIO_DIR": "./data/padded", 
+    "ANNOTATIONS_FILE":"./data/padded_metadata.csv", 
+    "SAMPLE_RATE":16000,
+    "N_FFT": 512, 
+    "HOP_LEN": 256,
+    "N_MELS": 96,
+    "N_MFCC": 96,
+    "kfold_num": 5,
+    "random_seed": 7,  
+    "CLASS_MAPPING": [
+        "confirm",
+        "decline",
+        "continuous",
+        "hush",
+        "psst",
+        "ahem"
+    ], 
+    "BATCH_SIZE" : 1,
+    "EPOCHS": 50,
+    "LEARNING_RATE" : 0.00005
+}
