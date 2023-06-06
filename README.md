@@ -3,6 +3,15 @@
 
 The CNVVE Dataset is consists of 950 audio samples encompassing six distinct classes of voice expressions. These expressions were collected from 42 generous individuals who donated their voice recordings for the study. By making the dataset publicly accessible, we hope to facilitate further research and development of computational methods for non-verbal voice-based interactions.
 
+### Download the dataset
+The dataset can be downloaded from Figshare.
+
+Raw dataset:
+https://doi.org/10.6084/m9.figshare.23301665.v1
+
+Cleaned dataset:
+https://doi.org/10.6084/m9.figshare.23301608.v1
+
 ### Setting up the Environment
 
 ```
@@ -14,7 +23,7 @@ pip install -r requirements.txt
 
 ### Steps to train and make the model
 
-1. Create a new folder call it data and copy the raw audio files in it under raw folder.
+1. Create a new folder call it data and copy the raw audio files in it under data/raw folder (You can also download the cleaned data and skip the next step).
 
 1. Run `python clean.py` in the terminal
     - This script will trim the empty trailing signals and place the cleaned samples under cleaned folder.
