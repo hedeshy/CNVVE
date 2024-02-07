@@ -3,6 +3,8 @@
 
 The CNVVE Dataset is consists of 950 audio samples encompassing six distinct classes of voice expressions. These expressions were collected from 42 generous individuals who donated their voice recordings for the study. By making the dataset publicly accessible, we hope to facilitate further research and development of computational methods for non-verbal voice-based interactions.
 
+A more detailed description of the dataset is available in the [paper](https://www.isca-archive.org/interspeech_2023/hedeshy23_interspeech.html).
+
 ### Download the dataset
 The dataset can be downloaded from Figshare.
 
@@ -54,3 +56,17 @@ Various modes of training can be used by modifying the `config.json`.
     - `is_aug`: This has to point to `true`.
     - `AUDIO_DIR`: This has to point to the new augmented dataset path. 
     - `ANNOTATIONS_FILE`: This has to point to the newly generated metadata csv file. 
+
+
+## Citing
+If you find this dataset useful please cite:
+```
+@inproceedings{hedeshy23_interspeech,
+  author={Ramin Hedeshy and Raphael Menges and Steffen Staab},
+  title={{CNVVE: Dataset and Benchmark for Classifying Non-verbal Voice}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={1553--1557},
+  doi={10.21437/Interspeech.2023-201}
+}
+```
