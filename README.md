@@ -9,10 +9,10 @@ A more detailed description of the dataset is available in the [paper](https://w
 The dataset can be downloaded from Figshare.
 
 Raw dataset:
-https://doi.org/10.6084/m9.figshare.23301665.v1
+https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3897&version=1.0
 
 Cleaned dataset:
-https://doi.org/10.6084/m9.figshare.23301608.v1
+https://darus.uni-stuttgart.de/dataset.xhtml?persistentId=doi:10.18419/darus-3898
 
 ### Setting up the Environment
 
